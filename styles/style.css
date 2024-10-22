@@ -349,6 +349,7 @@
 .card-review-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
   gap: 23px;
   margin-bottom: 30px;
   margin-top: 40px;
@@ -373,6 +374,10 @@
   border-radius: 50%;
 }
 
+.profile-desc-d .profile-name {
+  font-size: 1.2rem;
+}
+
 .card-description {
   margin-top: 10px;
   line-height: 30px;
@@ -386,6 +391,62 @@
 
 .review-heading > i {
   color: #fbd808;
+}
+
+/* choice us section style */
+
+.choice-us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.choice-us-title {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.choice-us-desc {
+  margin: 0 270px;
+  text-align: center;
+}
+
+.choice-us-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.choice-us-card {
+  width: 45%;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.card-1 {
+  background-color: #f5ebdf;
+}
+
+.card-2 {
+  background-color: #a3d6e2;
+}
+
+.card-3 {
+  background-color: #e9d7d7;
+}
+
+.choice-card-icon {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.choice-card-title {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
 }
 
 /* Responsive design style */
@@ -462,6 +523,17 @@
   .card-review-container {
     grid-template-columns: 1fr;
   }
+
+  .choice-us-card-container {
+    flex-direction: column;
+  }
+  .choice-us-card {
+    width: 100%;
+  }
+
+  .choice-us-desc {
+    margin: 0 20px;
+  }
 }
 
 /* Medium device style */
@@ -518,5 +590,11 @@
 
   .div {
     width: 50%;
+  }
+
+  .card-review-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
   }
 }
