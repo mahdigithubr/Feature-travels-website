@@ -158,6 +158,10 @@
   margin-bottom: 50px;
 }
 
+.tour-content-div {
+  width: 50%;
+}
+
 .popular-tour-title {
   font-size: 2.5rem;
   color: var(--black-color);
@@ -186,19 +190,17 @@
   margin-bottom: 40px;
   margin-top: 40px;
 }
-
-.tour-image-div {
+.popular-tour-image {
   width: 100%;
+}
+.tour-image-div {
+  width: 50%;
 }
 
 .popular-tour-desc-list li,
 .popular-tour-desc-bottom,
 .popular-tour-desc-top {
   margin: 20px;
-}
-
-.popular-tour-image {
-  width: 100%;
 }
 
 /* destination section style */
@@ -486,7 +488,13 @@
 
   .bn-input-text,
   .bn-select,
-  .bn-button {
+  .bn-button,
+  .tour-content-div,
+  .tour-image-div {
+    width: 100%;
+  }
+
+  .popular-tour-image {
     width: 100%;
   }
 
