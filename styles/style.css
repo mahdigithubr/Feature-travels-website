@@ -65,6 +65,7 @@
 
 .logo-div .Website-heading {
   font-size: 2rem;
+  font-weight: 900;
 }
 
 .menu-responsive > i {
@@ -212,6 +213,7 @@
   font-size: 2.5rem;
   color: var(--black-color);
   margin-bottom: 0.9rem;
+  font-weight: 900;
 }
 
 .destination-desc {
@@ -387,6 +389,7 @@
 .review-heading {
   font-size: 2rem;
   margin-bottom: 0px;
+  font-weight: 900;
 }
 
 .review-heading > i {
@@ -405,6 +408,7 @@
 .choice-us-title {
   font-size: 2.2rem;
   margin-bottom: 15px;
+  font-weight: 900;
 }
 
 .choice-us-desc {
