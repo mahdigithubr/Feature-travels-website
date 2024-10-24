@@ -855,6 +855,10 @@
     background-position: top bottom;
     align-items: flex-end;
   }
+
+  .newslatter-desc {
+    margin-right: 10px;
+  }
   .deals-card {
     width: 100%;
     padding: 20px;
